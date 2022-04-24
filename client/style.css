@@ -1,0 +1,138 @@
+.container
+{
+    left: 0%;
+    top: 0%;
+    position:fixed
+}
+#logo
+{
+    margin-top: 0%;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 50px;
+    position:fixed
+}
+
+#circle
+{
+    border-radius: 50%;
+    height: 139px;
+    width: 100px;
+    background-color: white;
+    left: 14%;
+    position:fixed;
+    
+}
+
+#navBar
+{
+    width: 100%;
+    background-color: #37003c;
+    height:139px;
+    position:fixed
+}
+
+.menuOption
+{
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    top: 4%;
+    
+}
+
+.menuOption::after
+{
+    display: block;
+    content: '';
+    border-bottom: solid 5px #a32ea1;
+    transform: scaleX(0);
+    transition: transform 125ms ease-in-out;
+   
+}
+
+.menuOption:hover::after
+{
+    transform: scaleX(1.2);
+    
+}
+
+.selectedMenuOption
+{
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    top: 4%;
+    border-bottom: solid 5px #a32ea1;
+    
+}
+
+
+body 
+{   
+    background-image: linear-gradient( #502363, #a32ea1 400%); 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#tableHolder
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    
+}
+
+table
+{
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+}
+td
+{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+td:hover
+{
+    background-color: #e3e6e8;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clubNames
+{
+    height: 60px;
+    border-radius: 10px;
+    line-height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 5px 4px #d4d2d2;
+    margin-bottom: 10px;
+
+}
